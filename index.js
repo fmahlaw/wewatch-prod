@@ -25,5 +25,5 @@ app.use('/post_name_toped', storeRoutes,)
 app.use('/post_add_data', additionalData,);
 
 app.listen(port, () => {
-  console.log(`Listening at http://localhost:${port || process.env.PORT}`);
+  console.log(`Listening at http://localhost:${port}`);
 });
